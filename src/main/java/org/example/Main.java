@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.print("Enter your name: ");
+        System.out.print("Enter your names: ");
         String name = reader.readLine();
 
         System.out.print("Enter your age: ");
