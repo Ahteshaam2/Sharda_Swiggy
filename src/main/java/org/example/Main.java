@@ -7,15 +7,15 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Welcome to Sharda Swiggy");
         System.out.println("Today's Special");
-        info("A:/papers/veg.csv.xlsx");
+        info("A:/papers/menu.csv");
         Scanner sc=new Scanner(System.in);
         System.out.println("Select your Dish:");
         String dish=sc.nextLine();
         if (dish.equalsIgnoreCase("Dal Makhni")){
             System.out.println("Here's the List of Some Famous Restaurants:");
-            info("A:/papers/veg.csv.xlsx");
+            info("A:/papers/rest_c.csv");
         }else if(dish.equalsIgnoreCase("Butter Chicken")){
-            info("A:/papers/veg.csv.xlsx");
+            info("A:/papers/rest_d.csv");
         }
         System.out.println("Select the Restaurant");
         String res=sc.nextLine();
@@ -23,45 +23,9 @@ public class Main {
         System.out.println("1. Google Pay\n2. Paytm\n3. PayPal");
         String pay=sc.nextLine();
         System.out.println("Your Payment is being Processed");
-        int i = 0;
-        while(i < 21) {
-            System.out.print("[");
-            for (int j=0;j<i;j++) {
-                System.out.print("#");
-            }
 
-            for (int j=0;j<20-i;j++) {
-                System.out.print(" ");
-            }
-
-            System.out.print("] "+  i*5 + "%");
-            if(i<20) {
-                System.out.print("\r");
-                Thread.sleep(300);
-            }
-            i++;
-        }
-        System.out.println();
         System.out.println("Your Order is being Placed");
-        i = 0;
-        while(i < 21) {
-            System.out.print("[");
-            for (int j=0;j<i;j++) {
-                System.out.print("#");
-            }
 
-            for (int j=0;j<20-i;j++) {
-                System.out.print(" ");
-            }
-
-            System.out.print("] "+  i*5 + "%");
-            if(i<20) {
-                System.out.print("\r");
-                Thread.sleep(300);
-            }
-            i++;
-        }
-        System.out.println();
         System.out.println("Your order will be ready in 20 minutes");
 
     }
