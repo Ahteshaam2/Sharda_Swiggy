@@ -21,7 +21,7 @@ public class Main {
 
 
             System.out.println("following are the available Dishes in your chosen restro");
-            Dish.displayMenu("A:\\papers\\Restro.csv");
+            Dish.displayMenu("A:\\papers\\menu1.csv");
 
 
             scanner.close();
