@@ -10,7 +10,7 @@ public class Main {
         }
         else{
 
-            System.out.println("Welcome to Sharda Swiggy Delivery App Mr. Utkarsh");
+            System.out.println("Welcome to Sharda Swiggy Delivery App Mr. Ahteshaam");
 
 
             // Display menu options
@@ -37,7 +37,7 @@ public class Main {
         String password = scanner.nextLine();
 
         // Perform username and password validation
-        if (username.equals("Utkarsh") && password.equals("Tiwari")) {
+        if (username.equals("Ahateshaam") && password.equals("Alex")) {
             return true;
         } else {
             return false;
